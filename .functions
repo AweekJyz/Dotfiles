@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# create new directories and enter the last one 
+function mcd(){
+	mkdir -p --verbose "$@" && cd "$_";
+}
+
+# git add both symbolic file and real file
+function gasr(){
+	for link_file in "$@"; do
+		git add -f "$link_file"
+
+		source_file=$( readlink -f "$link_file" )
+		git add -f "$source_file"
+		
+		echo "Added $link_file and its source file $source_file to Git."
+	done
+}
