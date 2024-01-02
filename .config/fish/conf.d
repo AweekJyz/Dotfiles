@@ -1,0 +1,1 @@
+/home/aweek/Dropbox/Mackup/.config/fish/conf.d
