@@ -1,0 +1,36 @@
+set editing-mode vi
+
+# $if mode=vi
+
+# set keymap vi-command
+# Control-l: clear-screen
+
+# set keymap vi-insert
+# Control-l: clear-screen 
+
+# $endif
+
+# ignore case when completing commands
+set completion-ignore-case on
+# show all completions if ambiguous
+set show-all-if-ambiguous on
+# show all completions if the command line is unmodidied
+set show-all-if-unmodified on
+
+$if mode=vi
+"\C-a": beginning-of-line
+"\C-e": end-of-line
+"\C-l": clear-screen
+"\C-n": next-history
+"\C-p": previous-history
+"\C-w": backward-kill-word
+# Alt + . or Esc + .: Yank the last argument of the previous command
+"\e.": yank-last-arg
+# Alt + _ or Esc + _: Yank the last argument of the previous command
+"\e.": yank-last-arg
+"\e_": yank-last-arg
+$endif
+
+# Alt left/right moves words
+"^[[1;3C": forward-word
+"^[[1;3D": backward-word

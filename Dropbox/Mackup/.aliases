@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+
+#Add .function file
+if [ -f ~/.functions ]; then
+    source ~/.functions
+fi
+
+#Enter navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+alias -- -="cd -"
+
+#Enter navigation: up, upp, uppp, upppp
+alias ..="cd .."
+alias up="cd .."
+alias upp="cd ../.."
+alias uppp="cd ../../.."
+alias upppp="cd ../../../.."
+
+# Shortcuts
+alias d="cd ~/Documents/Dropbox"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/Projects"
+alias g="git"
+
+alias ll="ls -alh"
+alias mv="mv -i"
+alias gs="git status"
+alias gi="git init && git symbolic-ref HEAD refs/heads/main"
+alias sl=ls
+#alias rm="rm -i"
+
+#Always enable colored 'ls' and 'grep' output:w
+if command -v brew > /dev/null 2>&1; then
+  alias ls="ls -G"
+  alias grep="grep -G"
+  alias fgrep="fgrep -G"
+  alias egrep="egrep -G"
+else
+  alias ls="ls --color=auto"
+  alias grep="grep --color=auto"
+  alias fgrep="fgrep --color=auto"
+  alias egrep="egrep --color=auto"
+fi
+
+# Get week number
+alias week='date +%V'
+
+alias drun='docker run --rm -it -v "${PWD}:/app -w /app'
+
+alias py="python3"
+
+alias vim="nvim"
+
+alias vi="/usr/bin/vim"
+
+

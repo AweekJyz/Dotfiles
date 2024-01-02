@@ -1,0 +1,7 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+linux-packages.resilio.com	0	1	1703126497	31536000
+www.dropbox.com	0	1	1704177158	31536000
+edge.dropboxstatic.com	0	1	1704177165	31536000
+github.com	0	1	1704124334	31536000
