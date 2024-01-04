@@ -65,7 +65,10 @@ zstyle ':prezto:load' pmodule \
 # zstyle ':prezto:module:editor' wordchars '*?_-.[]~&;!#$%^(){}<>'
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'emacs'
+zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:editor' vi-mode 'vi'
+## Enable visual bell in vi-mode
+## zstyle ':prezto:module:editor' visual-bell 'yes'
 
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
@@ -208,15 +211,18 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
    'root'
 #
 # Set syntax highlighting styles.
-# zstyle ':prezto:module:syntax-highlighting' styles \
-#   'builtin' 'bg=blue' \
-#   'command' 'bg=blue' \
-#   'function' 'bg=blue'
+zstyle ':prezto:module:syntax-highlighting' styles \
+   'builtin' 'fg=blue,bold' \
+   'command' 'fg=green,bold' \
+   'function' 'fg=green'
 #
+
 # Set syntax pattern styles.
 zstyle ':prezto:module:syntax-highlighting' pattern \
   'rm*-rf*' 'fg=white,bold,bg=red'
-
+# don't work
+# zstyle ':prezto:module:syntax-highlighting' pattern \
+# '^#*' 'fg=black,bold,bg=white'
 
 # Terminal
 #
@@ -238,7 +244,7 @@ zstyle ':prezto:module:syntax-highlighting' pattern \
 #
 
 # Auto start a session when Zsh is launched in a local terminal.
-# zstyle ':prezto:module:tmux:auto-start' local 'yes'
+zstyle ':prezto:module:tmux:auto-start' local 'yes'
 
 # Auto start a session when Zsh is launched in a SSH connection.
 # zstyle ':prezto:module:tmux:auto-start' remote 'yes'
