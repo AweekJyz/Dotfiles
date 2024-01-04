@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -148,3 +150,8 @@ if [ -f ~/.env ]; then
 fi
 
 . "$HOME/.cargo/env"
+
+# Tmuxinator completions
+if [ -f ~/etc/bash_completion.d/tmuxinator.bash ]; then
+	source ~/etc/bash_completion.d/tmuxinator.bash
+fi
