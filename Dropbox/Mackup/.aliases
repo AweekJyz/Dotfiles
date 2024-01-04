@@ -32,6 +32,7 @@ alias mv="mv -i"
 alias gs="git status"
 alias gi="git init && git symbolic-ref HEAD refs/heads/main"
 alias sl=ls
+alias clr="clear"
 #alias rm="rm -i"
 
 #Always enable colored 'ls' and 'grep' output:w
