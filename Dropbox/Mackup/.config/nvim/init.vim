@@ -13,6 +13,7 @@ set inccommand=nosplit
 
 " Load vim config
 source ~/.vimrc
+source ~/.vimrc.bak
 
 " FZF Floating Window (NVIM only)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

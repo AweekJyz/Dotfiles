@@ -155,3 +155,5 @@ fi
 if [ -f ~/etc/bash_completion.d/tmuxinator.bash ]; then
 	source ~/etc/bash_completion.d/tmuxinator.bash
 fi
+
+HISTCONTROL=ignorespace

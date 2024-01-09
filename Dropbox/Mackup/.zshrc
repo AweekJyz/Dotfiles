@@ -112,4 +112,6 @@ base16_oceanicnext
 # The style for the current cursor position
 ZSH_HIGHLIGHT_STYLES[cursor]='bg=black,fg=green'
 
+setopt HIST_IGNORE_SPACE
 
+export PATH="$PATH:/home/aweek/.local/bin"

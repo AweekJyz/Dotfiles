@@ -18,15 +18,15 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1704208455,,"q"
+|2,0,1704771929,,"q"
+:q!
+|2,0,1704351892,,"q!"
 :wq
 |2,0,1704202845,,"wq"
 :Q
 |2,0,1704193598,,"Q"
 :q1
 |2,0,1704100483,,"q1"
-:q!
-|2,0,1704098800,,"q!"
 :'<,'>q
 |2,0,1704039908,,"'<,'>q"
 :colorscheme solarized
@@ -115,34 +115,34 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	t
-|3,1,0,0,1,0,1704111576,"t"
-"1	LINE	0
+|3,0,0,0,1,0,1704111576,"t"
+""1	LINE	0
+	if [ -f
+|3,1,1,1,1,0,1704351883,"if [ -f"
+"2	LINE	0
 	zstyle ':prezto:module:syntax-highlighting' pattern \
 	#   'rm*-rf*' 'fg=white,bold,bg=red'
-|3,0,1,1,2,0,1704102500,"zstyle ':prezto:module:syntax-highlighting' pattern \\","#   'rm*-rf*' 'fg=white,bold,bg=red'"
-"2	LINE	0
-	solarized
-|3,0,2,1,1,0,1704098613,"solarized"
+|3,0,2,1,2,0,1704102500,"zstyle ':prezto:module:syntax-highlighting' pattern \\","#   'rm*-rf*' 'fg=white,bold,bg=red'"
 "3	LINE	0
-	# split panes using | and -
-|3,0,3,1,1,0,1704039266,"# split panes using | and -"
+	solarized
+|3,0,3,1,1,0,1704098613,"solarized"
 "4	LINE	0
-	#bind | split-window -h
-|3,0,4,1,1,0,1704039264,"#bind | split-window -h"
+	# split panes using | and -
+|3,0,4,1,1,0,1704039266,"# split panes using | and -"
 "5	LINE	0
 	#bind | split-window -h
 |3,0,5,1,1,0,1704039264,"#bind | split-window -h"
 "6	LINE	0
-	# split panes using | and -
-|3,0,6,1,1,0,1704039115,"# split panes using | and -"
+	#bind | split-window -h
+|3,0,6,1,1,0,1704039264,"#bind | split-window -h"
 "7	LINE	0
-	set -g history-limit 65536
-|3,0,7,1,1,0,1704037548,"set -g history-limit 65536"
+	# split panes using | and -
+|3,0,7,1,1,0,1704039115,"# split panes using | and -"
 "8	LINE	0
-	# PS1="\w $ "
-|3,0,8,1,1,0,1704034422,"# PS1=\"\\w $ \""
+	set -g history-limit 65536
+|3,0,8,1,1,0,1704037548,"set -g history-limit 65536"
 "9	LINE	0
 	# PS1="\w $ "
 |3,0,9,1,1,0,1704034422,"# PS1=\"\\w $ \""
@@ -151,34 +151,124 @@ $
 |3,0,36,0,1,0,1704102530," "
 
 # File marks:
-'0  1  0  ~/Dropbox/Mackup/.vimrc
-|4,48,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
-'1  18  0  ~/.functions
-|4,49,18,0,1704202845,"~/.functions"
-'2  1  0  ~/Dotfiles/.git/config
-|4,50,1,0,1704195223,"~/Dotfiles/.git/config"
-'3  12  0  ~/.git/config
-|4,51,12,0,1704194829,"~/.git/config"
+'0  30  31  ~/.zshrc
+|4,48,30,31,1704771930,"~/.zshrc"
+'1  96  0  ~/.vimrc
+|4,49,96,0,1704351892,"~/.vimrc"
+'2  1  0  ~/Dropbox/Mackup/.vimrc
+|4,50,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
+'3  18  0  ~/.functions
+|4,51,18,0,1704202845,"~/.functions"
 '4  1  0  ~/Dotfiles/.git/config
-|4,52,1,0,1704193600,"~/Dotfiles/.git/config"
-'5  8  0  ~/.git/config
-|4,53,8,0,1704193583,"~/.git/config"
-'6  8  0  ~/.git/config
-|4,54,8,0,1704193583,"~/.git/config"
-'7  56  12  ~/.gitconfig
-|4,55,56,12,1704188502,"~/.gitconfig"
-'8  61  0  ~/.aliases
-|4,56,61,0,1704185166,"~/.aliases"
-'9  2  0  ~/.gitignore
-|4,57,2,0,1704183976,"~/.gitignore"
+|4,52,1,0,1704195223,"~/Dotfiles/.git/config"
+'5  12  0  ~/.git/config
+|4,53,12,0,1704194829,"~/.git/config"
+'6  1  0  ~/Dotfiles/.git/config
+|4,54,1,0,1704193600,"~/Dotfiles/.git/config"
+'7  8  0  ~/.git/config
+|4,55,8,0,1704193583,"~/.git/config"
+'8  8  0  ~/.git/config
+|4,56,8,0,1704193583,"~/.git/config"
+'9  56  12  ~/.gitconfig
+|4,57,56,12,1704188502,"~/.gitconfig"
 
 # Jumplist (newest first):
+-'  30  31  ~/.zshrc
+|4,39,30,31,1704771930,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1704771811,"~/.zshrc"
+-'  96  0  ~/.vimrc
+|4,39,96,0,1704351892,"~/.vimrc"
+-'  96  0  ~/.vimrc
+|4,39,96,0,1704351892,"~/.vimrc"
+-'  96  0  ~/.vimrc
+|4,39,96,0,1704351892,"~/.vimrc"
+-'  96  0  ~/.vimrc
+|4,39,96,0,1704351892,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1704351316,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1704351316,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1704351316,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1704351316,"~/.vimrc"
+-'  1  0  ~/Dropbox/Mackup/.vimrc
+|4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
+-'  1  0  ~/Dropbox/Mackup/.vimrc
+|4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
+-'  1  0  ~/Dropbox/Mackup/.vimrc
+|4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
+-'  1  0  ~/Dropbox/Mackup/.vimrc
+|4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
+-'  1  0  ~/Dropbox/Mackup/.vimrc
+|4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
+-'  1  0  ~/Dropbox/Mackup/.vimrc
+|4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
+-'  1  0  ~/Dropbox/Mackup/.vimrc
+|4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
 -'  1  0  ~/Dropbox/Mackup/.vimrc
 |4,39,1,0,1704208455,"~/Dropbox/Mackup/.vimrc"
 -'  18  0  ~/.functions
 |4,39,18,0,1704202845,"~/.functions"
 -'  18  0  ~/.functions
 |4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  18  0  ~/.functions
+|4,39,18,0,1704202845,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
+-'  1  0  ~/.functions
+|4,39,1,0,1704202052,"~/.functions"
 -'  1  0  ~/.functions
 |4,39,1,0,1704202052,"~/.functions"
 -'  1  0  ~/.functions
@@ -191,6 +281,62 @@ $
 |4,39,1,0,1704195223,"~/Dotfiles/.git/config"
 -'  1  0  ~/Dotfiles/.git/config
 |4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
+-'  1  0  ~/Dotfiles/.git/config
+|4,39,1,0,1704195223,"~/Dotfiles/.git/config"
 -'  12  0  ~/.git/config
 |4,39,12,0,1704194829,"~/.git/config"
 -'  12  0  ~/.git/config
@@ -199,182 +345,96 @@ $
 |4,39,12,0,1704194829,"~/.git/config"
 -'  12  0  ~/.git/config
 |4,39,12,0,1704194829,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704194766,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704194766,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704194766,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704194766,"~/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  1  0  ~/Dotfiles/.git/config
-|4,39,1,0,1704193600,"~/Dotfiles/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  8  0  ~/.git/config
-|4,39,8,0,1704193583,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  1  0  ~/.git/config
-|4,39,1,0,1704193565,"~/.git/config"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  56  12  ~/.gitconfig
-|4,39,56,12,1704188502,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1704186853,"~/.gitconfig"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
+-'  12  0  ~/.git/config
+|4,39,12,0,1704194829,"~/.git/config"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	*	1704771928	0
+	"	30	31
+	^	1	11
+	.	1	11
+	+	1	11
+
+> ~/.vimrc
+	*	1704351889	0
+	"	96	0
+	.	96	0
+	+	77	9
+	+	77	0
+	+	76	0
+	+	74	40
+	+	77	27
+	+	77	2
+	+	77	0
+	+	78	0
+	+	88	0
+	+	77	0
+	+	88	0
+	+	78	72
+	+	79	56
+	+	80	2
+	+	79	10
+	+	80	44
+	+	81	2
+	+	82	1
+	+	83	1
+	+	84	1
+	+	86	1
+	+	87	1
+	+	86	0
+	+	84	1
+	+	83	1
+	+	86	1
+	+	77	0
+	+	76	0
+	+	78	7
+	+	84	1
+	+	86	20
+	+	88	0
+	+	86	0
+	+	85	13
+	+	1	41
+	+	1	111
+	+	1	183
+	+	1	250
+	+	2	0
+	+	90	0
+	+	89	2
+	+	92	12
+	+	89	14
+	+	91	19
+	+	92	21
+	+	93	27
+	+	92	25
+	+	96	0
 
 > ~/Dropbox/Mackup/.vimrc
 	*	1704208451	0
@@ -494,13 +554,6 @@ $
 	+	200	2
 	+	41	0
 	+	198	55
-
-> ~/.zshrc
-	*	1704181698	0
-	"	89	0
-	^	1	11
-	.	1	11
-	+	1	11
 
 > ~/alacritty.fish
 	*	1704124410	0
@@ -687,59 +740,6 @@ $
 	^	9	34
 	.	9	34
 	+	9	34
-
-> ~/.vimrc
-	*	1704040368	0
-	"	92	25
-	^	92	26
-	.	92	25
-	+	77	9
-	+	77	0
-	+	76	0
-	+	74	40
-	+	77	27
-	+	77	2
-	+	77	0
-	+	78	0
-	+	88	0
-	+	77	0
-	+	88	0
-	+	78	72
-	+	79	56
-	+	80	2
-	+	79	10
-	+	80	44
-	+	81	2
-	+	82	1
-	+	83	1
-	+	84	1
-	+	86	1
-	+	87	1
-	+	86	0
-	+	84	1
-	+	83	1
-	+	86	1
-	+	77	0
-	+	76	0
-	+	78	7
-	+	84	1
-	+	86	20
-	+	88	0
-	+	86	0
-	+	85	13
-	+	1	41
-	+	1	111
-	+	1	183
-	+	1	250
-	+	2	0
-	+	90	0
-	+	89	2
-	+	92	12
-	+	89	14
-	+	91	19
-	+	92	21
-	+	93	27
-	+	92	25
 
 > ~/.vim/colors/.vimrc
 	*	1704039927	0
