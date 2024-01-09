@@ -16,3 +16,30 @@ function gasr(){
 		echo "Added $link_file and its source file $source_file to Git."
 	done
 }
+
+#    echo "$(pwd)" >| $HOME/marco_history.log
+
+# Function to save the current working directory to a history log file.
+# Appends the current directory to the end of the log file.
+function marco() {
+    current_pwd=$(pwd)
+    echo "$current_pwd" >> "$HOME/marco_history.log"
+    echo "Saved pwd: $current_pwd"
+}
+
+# Function to restore the working directory from the history log file.
+# Reads the last recorded directory from the log file and changes the directory to it.
+function polo() {
+    # Check if the marco history log file exists
+    if [ -f "$HOME/marco_history.log" ]; then
+        # Get the last recorded directory from the log file
+        last_pwd=$(tail -n 1 "$HOME/marco_history.log")
+
+        # Change the directory to the last recorded directory
+        cd "$last_pwd" || return 1
+        echo "Restored to: $last_pwd"
+    else
+        # If the history log file doesn't exist, inform the user
+        echo "No marco history found."
+    fi
+}
